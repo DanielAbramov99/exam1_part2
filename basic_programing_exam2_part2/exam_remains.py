@@ -1,26 +1,26 @@
-# age: int = int(input("enter your age:"))
-# height: int = int(input("enter your height in cm:"))
-#
-# if 8 <= age <= 18 and height > 115 or age > 18 and height > 100:
-#     print("you can ride on a rollercoaster:")
-# else:
-#     print("you cannot ride on a rollercoaster: ")
-#
-# while True:
-#     number: int = int(input("enter a three digit number:"))
-#     num: int = int(input("enter one digit number:"))
-#     last_digit = number % 10
-#     middle_digit: int = (number // 10) % 10
-#     first_digit: int = number // 100
-#     if not 0 <= number <= 999 and 0 <= num <= 9:
-#         print("one of the parameters are illegal")
-#         continue
-#     else:
-#         if num == last_digit or num == middle_digit or num == first_digit:
-#             print(f"the digit is in number {True}")
-#         else:
-#             print(f"the digit is not in the number{False}")
-#     break
+age: int = int(input("enter your age:"))
+height: int = int(input("enter your height in cm:"))
+
+if 8 <= age <= 18 and height > 115 or age > 18 and height > 100:
+    print("you can ride on a rollercoaster:")
+else:
+    print("you cannot ride on a rollercoaster: ")
+
+while True:
+    number: int = int(input("enter a three digit number:"))
+    num: int = int(input("enter one digit number:"))
+    last_digit = number % 10
+    middle_digit: int = (number // 10) % 10
+    first_digit: int = number // 100
+    if not 0 <= number <= 999 and 0 <= num <= 9:
+        print("one of the parameters are illegal")
+        continue
+    else:
+        if num == last_digit or num == middle_digit or num == first_digit:
+            print(f"the digit is in number {True}")
+        else:
+            print(f"the digit is not in the number{False}")
+    break
 
 country_votes: list[int] = [0]
 counter: int = 1
